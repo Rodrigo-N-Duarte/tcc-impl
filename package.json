@@ -1,0 +1,37 @@
+{
+  "name": "tcc-ucd",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-ucd-ui": "cds watch --open ucd-ui/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-tcc-ucd": "cds watch --open tcc-ucd/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-fiori-ucd": "cds watch --open fiori-ucd/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "url": "db.sqlite"
+        }
+      }
+    }
+  },
+  "sapux": [
+    "app/ucd-ui",
+    "app/tcc-ucd",
+    "app/ucd-ui",
+    "app/project1",
+    "app/fiori-ucd"
+  ]
+}

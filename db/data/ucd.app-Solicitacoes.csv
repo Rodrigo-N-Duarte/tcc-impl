@@ -1,0 +1,6 @@
+ID;Solicitante;Departamento;TipoSolicitacao;Descricao;Prioridade;Status;DataSolicitacao;DataConclusao
+11111111-1111-1111-1111-111111111111;Rodrigo Duarte;TI;Material;Solicitação de novos cabos HDMI para as salas de reunião.;Média;Em andamento;2025-10-05T09:00:00Z;
+22222222-2222-2222-2222-222222222222;Alisson Arantes;Financeiro;Serviço;Pedido de manutenção no sistema de notas fiscais.;Alta;Concluída;2025-09-30T14:00:00Z;2025-10-02T10:30:00Z
+33333333-3333-3333-3333-333333333333;Marina Lopes;RH;Melhoria de Processo;Sugestão de automatização do processo de admissão de novos funcionários.;Baixa;Aberta;2025-10-07T08:00:00Z;
+44444444-4444-4444-4444-444444444444;Lucas Andrade;Operações;Acesso a Sistema;Solicitação de acesso ao SAP GUI para novo colaborador.;Alta;Pendente;2025-10-06T13:20:00Z;
+55555555-5555-5555-5555-555555555555;Fernanda Costa;Compras;Equipamento;Solicitação de notebook para novo estagiário.;Média;Em andamento;2025-10-04T15:40:00Z;
