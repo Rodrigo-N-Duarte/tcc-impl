@@ -41,9 +41,9 @@ annotate service.Solicitacoes with @(
         {
             $Type : 'UI.ReferenceFacet',
             ID : 'GeneratedFacet1',
-            Label : 'General Information',
+            Label : 'Informações',
             Target : '@UI.FieldGroup#GeneratedGroup',
-        },
+        }
     ],
     UI.LineItem : [
         {
@@ -67,5 +67,10 @@ annotate service.Solicitacoes with @(
             Value : Prioridade,
         },
     ],
+    UI.FieldGroup #Testemunhas : {
+        $Type : 'UI.FieldGroupType',
+        Data : [
+        ],
+    },
 );
 

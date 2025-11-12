@@ -7,6 +7,7 @@ using { cuid, managed } from '@sap/cds/common';
  * Essa modelagem reflete o foco na experiência e no fluxo de uso do usuário.
  */
 entity Solicitacoes : cuid, managed {
+    key ID   : UUID;
     Solicitante        : String(100)       @title: 'Nome do Solicitante';
     Departamento       : String(80)        @title: 'Departamento';
     TipoSolicitacao    : String(60)        @title: 'Tipo de Solicitação'; // Ex: Material, Acesso, Melhoria

@@ -114,7 +114,11 @@
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable",
-                    "selectAll": true
+                    "selectAll": true,
+                    "selectionMode": "Multi",
+                    "personalization": {
+                      "sort": true
+                    }
                   }
                 }
               },
@@ -129,7 +133,8 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/Solicitacoes"
+              "contextPath": "/Solicitacoes",
+              "sectionLayout": "Tabs"
             }
           }
         }
