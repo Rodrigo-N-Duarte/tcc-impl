@@ -1,38 +1,22 @@
 using {ucd.app as db} from '../db/schema';
 
-/**
- * ============================================================================
- * SERVIÇO PRINCIPAL - SOLICITAÇÃO SERVICE
- * ============================================================================
- * Serviço de usabilidade centrada no usuário desenvolvido em SAP CAP
- * Expõe entidades com anotações completas para Fiori Elements
- * Path: /odata/v4/solicitacao
- */
 service SolicitacaoService @(path: '/odata/v4/solicitacao') {
-
-            /**
-             * ========================================================================
-             * ENTIDADE PRINCIPAL: SOLICITAÇÕES
-             * ========================================================================
-             * Projeção da entidade db.Solicitacoes com annotations UI completas
-             * para List Report e Object Page patterns
-             */
-    @(
+            @(
         // ====================================================================
         // CONFIGURAÇÕES GERAIS E CAPABILITIES
         // ====================================================================
-        odata.draft.enabled                    : true,
-        odata.draft.bypass                     : false,
+        odata.draft.enabled         : true,
+        odata.draft.bypass          : false,
 
-        Common                                 : {
+        Common                      : {
             SemanticKey: [ID],
             Label      : 'Solicitação'
         },
 
-        Capabilities                           : {
+        Capabilities                : {
             FilterRestrictions: {FilterExpressionRestrictions: [{
                 Property          : DataSolicitacao,
-                AllowedExpressions: 'SingleRange'
+                AllowedExpressions: 'MultiRangeOrSearchExpression'
             }]},
             SortRestrictions  : {NonSortableProperties: [Descricao]}
         },
@@ -40,7 +24,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
         // ====================================================================
         // HEADER INFO - Cabeçalho da Object Page
         // ====================================================================
-        UI.HeaderInfo                          : {
+        UI.HeaderInfo               : {
             TypeName      : 'Solicitação',
             TypeNamePlural: 'Solicitações',
             Title         : {
@@ -58,7 +42,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
         // ====================================================================
         // SELECTION FIELDS - Campos de Filtro na List Report
         // ====================================================================
-        UI.SelectionFields                     : [
+        UI.SelectionFields          : [
             Solicitante,
             TipoSolicitacao,
             Status,
@@ -94,7 +78,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
         // ====================================================================
         // LINE ITEM - Tabela Principal (List Report)
         // ====================================================================
-        UI.LineItem                            : [
+        UI.LineItem                 : [
             {
                 $Type            : 'UI.DataField',
                 Value            : ID,
@@ -158,7 +142,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
         // ====================================================================
         // DATA POINTS - Indicadores Visuais com Criticality
         // ====================================================================
-        UI.DataPoint #Status                   : {
+        UI.DataPoint #Status        : {
             $Type                    : 'UI.DataPointType',
             Value                    : Status,
             Title                    : 'Status da Solicitação',
@@ -166,7 +150,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
             CriticalityRepresentation: #WithIcon
         },
 
-        UI.DataPoint #Prioridade               : {
+        UI.DataPoint #Prioridade    : {
             $Type                    : 'UI.DataPointType',
             Value                    : Prioridade,
             Title                    : 'Nível de Prioridade',
@@ -174,7 +158,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
             CriticalityRepresentation: #WithIcon
         },
 
-        UI.DataPoint #DiasDecorridos           : {
+        UI.DataPoint #DiasDecorridos: {
             $Type                    : 'UI.DataPointType',
             Value                    : DiasDecorridos,
             Title                    : 'Dias em Aberto',
@@ -186,7 +170,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
         // ====================================================================
         // HEADER FACETS - KPIs no Cabeçalho da Object Page
         // ====================================================================
-        UI.HeaderFacets                        : [
+        UI.HeaderFacets             : [
             {
                 $Type               : 'UI.ReferenceFacet',
                 Target              : '@UI.DataPoint#Status',
@@ -214,73 +198,8 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
         ],
 
         // ====================================================================
-        // FACETS - Seções da Object Page
-        // ====================================================================
-        UI.Facets                              : [
-            // Seção 1: Informações Gerais
-            {
-                $Type : 'UI.CollectionFacet',
-                Label : 'Informações Gerais',
-                ID    : 'InformacoesGeraisFacet',
-                Facets: [
-                    {
-                        $Type : 'UI.ReferenceFacet',
-                        Target: '@UI.FieldGroup#DadosSolicitante',
-                        Label : 'Dados do Solicitante',
-                        ID    : 'DadosSolicitanteFacet'
-                    },
-                    {
-                        $Type : 'UI.ReferenceFacet',
-                        Target: '@UI.FieldGroup#ClassificacaoSolicitacao',
-                        Label : 'Classificação da Solicitação',
-                        ID    : 'ClassificacaoFacet'
-                    }
-                ]
-            },
-
-            // Seção 2: Descrição Detalhada
-            {
-                $Type : 'UI.ReferenceFacet',
-                Target: '@UI.FieldGroup#DescricaoDetalhada',
-                Label : 'Descrição Detalhada',
-                ID    : 'DescricaoFacet'
-            },
-
-            // Seção 3: Controle e Acompanhamento
-            {
-                $Type : 'UI.CollectionFacet',
-                Label : 'Controle e Acompanhamento',
-                ID    : 'ControleFacet',
-                Facets: [
-                    {
-                        $Type : 'UI.ReferenceFacet',
-                        Target: '@UI.FieldGroup#StatusControle',
-                        Label : 'Status e Controle',
-                        ID    : 'StatusControleFacet'
-                    },
-                    {
-                        $Type : 'UI.ReferenceFacet',
-                        Target: '@UI.FieldGroup#Prazos',
-                        Label : 'Prazos e Datas',
-                        ID    : 'PrazosFacet'
-                    }
-                ]
-            },
-
-            // Seção 4: Dados Administrativos
-            {
-                $Type : 'UI.ReferenceFacet',
-                Target: '@UI.FieldGroup#DadosAdministrativos',
-                Label : 'Informações Administrativas',
-                ID    : 'AdminFacet'
-            }
-        ],
-
-        // ====================================================================
         // FIELD GROUPS - Agrupamentos de Campos
         // ====================================================================
-
-        // Datas Importantes (Header)
         UI.FieldGroup #DatasImportantes        : {Data: [
             {
                 $Type: 'UI.DataField',
@@ -294,124 +213,10 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
             }
         ]},
 
-        // Dados do Solicitante
-        UI.FieldGroup #DadosSolicitante        : {Data: [
-            {
-                $Type                : 'UI.DataField',
-                Value                : Solicitante,
-                Label                : 'Nome do Solicitante',
-                ![@HTML5.CssDefaults]: {width: '100%'}
-            },
-            {
-                $Type                : 'UI.DataField',
-                Value                : Departamento,
-                Label                : 'Departamento',
-                ![@HTML5.CssDefaults]: {width: '100%'}
-            }
-        ]},
-
-        // Classificação da Solicitação
-        UI.FieldGroup #ClassificacaoSolicitacao: {Data: [
-            {
-                $Type               : 'UI.DataField',
-                Value               : TipoSolicitacao,
-                Label               : 'Tipo de Solicitação',
-                ![@Common.ValueList]: {
-                    CollectionPath: 'TiposSolicitacao',
-                    Parameters    : [{
-                        $Type            : 'Common.ValueListParameterInOut',
-                        LocalDataProperty: TipoSolicitacao,
-                        ValueListProperty: 'Nome'
-                    }]
-                }
-            },
-            {
-                $Type                              : 'UI.DataField',
-                Value                              : Prioridade,
-                Label                              : 'Prioridade',
-                ![@Common.ValueListWithFixedValues]: true
-            }
-        ]},
-
-        // Descrição Detalhada
-        UI.FieldGroup #DescricaoDetalhada      : {Data: [{
-            $Type                : 'UI.DataField',
-            Value                : Descricao,
-            Label                : 'Descrição Completa da Solicitação',
-            ![@UI.MultiLineText] : true,
-            ![@HTML5.CssDefaults]: {width: '100%'}
-        }]},
-
-        // Status e Controle
-        UI.FieldGroup #StatusControle          : {Data: [
-            {
-                $Type                              : 'UI.DataField',
-                Value                              : Status,
-                Label                              : 'Status Atual',
-                ![@Common.ValueListWithFixedValues]: true
-            },
-            {
-                $Type                              : 'UI.DataField',
-                Value                              : Prioridade,
-                Label                              : 'Nível de Prioridade',
-                ![@Common.ValueListWithFixedValues]: true
-            }
-        ]},
-
-        // Prazos e Datas
-        UI.FieldGroup #Prazos                  : {Data: [
-            {
-                $Type            : 'UI.DataField',
-                Value            : DataSolicitacao,
-                Label            : 'Data da Solicitação',
-                ![@UI.Importance]: #High
-            },
-            {
-                $Type            : 'UI.DataField',
-                Value            : DataConclusao,
-                Label            : 'Data de Conclusão',
-                ![@UI.Importance]: #High
-            },
-            {
-                $Type            : 'UI.DataField',
-                Value            : DiasDecorridos,
-                Label            : 'Dias Decorridos desde a Solicitação',
-                ![@UI.Importance]: #Medium
-            }
-        ]},
-
-        // Dados Administrativos (managed fields)
-        UI.FieldGroup #DadosAdministrativos    : {Data: [
-            {
-                $Type            : 'UI.DataField',
-                Value            : createdBy,
-                Label            : 'Criado por',
-                ![@Core.Computed]: true
-            },
-            {
-                $Type            : 'UI.DataField',
-                Value            : createdAt,
-                Label            : 'Criado em',
-                ![@Core.Computed]: true
-            },
-            {
-                $Type            : 'UI.DataField',
-                Value            : modifiedBy,
-                Label            : 'Modificado por',
-                ![@Core.Computed]: true
-            },
-            {
-                $Type            : 'UI.DataField',
-                Value            : modifiedAt,
-                Label            : 'Modificado em',
-                ![@Core.Computed]: true
-            }
-        ]},
-
         // ====================================================================
         // IDENTIFICATION - Ações no Header da Object Page
         // ====================================================================
-        UI.Identification                      : [
+        UI.Identification           : [
             {
                 $Type      : 'UI.DataFieldForAction',
                 Action     : 'SolicitacaoService.concluirSolicitacao',
@@ -453,33 +258,30 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
                 ]}}
             }
         ]
+
+        // ====================================================================
+        // Value Helps
+        // ====================================================================
     )
-    entity Solicitacoes     as
+
+    entity Solicitacoes       as
         projection on db.Solicitacoes
         // ========================================================================
         // CAMPOS VIRTUAIS CALCULADOS
         // ========================================================================
         {
             *,
-            // Campo virtual: Criticidade do Status
             virtual null as StatusCriticality         : Integer @title: 'Status Criticality',
-
-            // Campo virtual: Criticidade da Prioridade
             virtual null as PrioridadeCriticality     : Integer @title: 'Prioridade Criticality',
-
-            // Campo virtual: Dias decorridos desde a solicitação
             virtual null as DiasDecorridos            : Integer @title: 'Dias Decorridos',
-
-            // Campo virtual: Criticidade dos dias decorridos
             virtual null as DiasDecorridosCriticality : Integer @title: 'Dias Decorridos Criticality'
         }
+
         // ========================================================================
         // ACTIONS - Ações de Negócio
         // ========================================================================
         actions {
-            /**
-             * Concluir uma solicitação em andamento
-             */
+            /** Concluir uma solicitação em andamento */
             @(Common.SideEffects: {TargetProperties: [
                 'Status',
                 'StatusCriticality',
@@ -491,9 +293,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
             action concluirSolicitacao(observacoes: String(500)  @title: 'Observações de Conclusão'  @mandatory
             ) returns Solicitacoes;
 
-            /**
-             * Cancelar uma solicitação
-             */
+            /* Cancelar uma solicitação */
             @(Common.SideEffects: {TargetProperties: [
                 'Status',
                 'StatusCriticality',
@@ -504,50 +304,41 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
             ) returns Solicitacoes;
         };
 
-    // ========================================================================
-    // ENTIDADE DE VALUE HELP: TIPOS DE SOLICITAÇÃO
-    // ========================================================================
-    @(
-        readonly,
-        Capabilities: {
-            InsertRestrictions.Insertable: false,
-            UpdateRestrictions.Updatable : false,
-            DeleteRestrictions.Deletable : false,
-            SearchRestrictions.Searchable: true
-        },
-        UI          : {
-            Identification : [{
-                $Type: 'UI.DataField',
-                Value: Nome
-            }],
-            SelectionFields: [
-                Nome,
-                Ativo
-            ],
-            LineItem       : [
-                {
-                    $Type: 'UI.DataField',
-                    Value: ID,
-                    Label: 'ID'
-                },
-                {
-                    $Type: 'UI.DataField',
-                    Value: Nome,
-                    Label: 'Tipo de Solicitação'
-                },
-                {
-                    $Type: 'UI.DataField',
-                    Value: Ativo,
-                    Label: 'Ativo'
-                }
-            ]
-        }
-    )
-    entity TiposSolicitacao as projection on db.TiposSolicitacao
+    @readonly
+    entity StatusOptions      as projection on db.StatusOptions;
 
-    // ========================================================================
-    // FUNÇÃO: ESTATÍSTICAS DE SOLICITAÇÕES
-    // ========================================================================
+    // Annotation para value list de status
+    annotate Solicitacoes : Status with @(
+        Common.ValueListWithFixedValues,
+        Common.ValueList: {
+            CollectionPath: 'StatusOptions',
+            Parameters    : [{
+                $Type            : 'Common.ValueListParameterInOut',
+                LocalDataProperty: Status,
+                ValueListProperty: 'ID'
+            }]
+        }
+    );
+
+    @readonly
+    entity PrioridadesOptions as projection on db.PrioridadesOptions;
+
+    // Annotation para value list de prioridades
+    annotate Solicitacoes : Prioridade with @(
+        Common.ValueListWithFixedValues,
+        Common.ValueList: {
+            CollectionPath: 'PrioridadesOptions',
+            Parameters    : [{
+                $Type            : 'Common.ValueListParameterInOut',
+                LocalDataProperty: Prioridade,
+                ValueListProperty: 'ID'
+            }]
+        }
+    );
+
+
+
+    /* Obter estatisticas */
     @(readonly)
     function obterEstatisticas() returns {
         TotalSolicitacoes         : Integer;
@@ -566,9 +357,7 @@ service SolicitacaoService @(path: '/odata/v4/solicitacao') {
         };
     };
 
-    // ========================================================================
-    // FUNÇÃO: RELATÓRIO DE SOLICITAÇÕES POR PERÍODO
-    // ========================================================================
+    /* Obter relatório do período */
     @(readonly)
     function relatorioPorPeriodo(dataInicio: DateTime @title: 'Data Início',
                                  dataFim: DateTime @title: 'Data Fim'

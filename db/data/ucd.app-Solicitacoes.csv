@@ -1,6 +1,216 @@
 ID;Solicitante;Departamento;TipoSolicitacao;Descricao;Prioridade;Status;DataSolicitacao;DataConclusao
-11111111-1111-1111-1111-111111111111;Rodrigo Duarte;TI;Material;Solicitação de novos cabos HDMI para as salas de reunião.;Média;Em andamento;2025-10-05T09:00:00Z;
-22222222-2222-2222-2222-222222222222;Alisson Arantes;Financeiro;Serviço;Pedido de manutenção no sistema de notas fiscais.;Alta;Concluída;2025-09-30T14:00:00Z;2025-10-02T10:30:00Z
+11111111-1111-1111-1111-111111111111;Rodrigo Ferreira;TI;Material;Solicitação de novos cabos HDMI para as salas de reunião.;Média;Em andamento;2025-10-05T09:00:00Z;
+22222222-2222-2222-2222-222222222222;Lucas Prado;Financeiro;Serviço;Pedido de manutenção no sistema de notas fiscais.;Alta;Concluída;2025-09-30T14:00:00Z;2025-10-02T10:30:00Z
 33333333-3333-3333-3333-333333333333;Marina Lopes;RH;Melhoria de Processo;Sugestão de automatização do processo de admissão de novos funcionários.;Baixa;Aberta;2025-10-07T08:00:00Z;
 44444444-4444-4444-4444-444444444444;Lucas Andrade;Operações;Acesso a Sistema;Solicitação de acesso ao SAP GUI para novo colaborador.;Alta;Pendente;2025-10-06T13:20:00Z;
 55555555-5555-5555-5555-555555555555;Fernanda Costa;Compras;Equipamento;Solicitação de notebook para novo estagiário.;Média;Em andamento;2025-10-04T15:40:00Z;
+
+66666666-6666-6666-6666-666666666666;João Pereira;Marketing;Serviço;Ajuste no layout da página institucional.;Baixa;Aberta;2025-10-03T10:15:00Z;
+77777777-7777-7777-7777-777777777777;Carla Mendes;TI;Acesso a Sistema;Reativação de usuário bloqueado no AD.;Alta;Concluída;2025-10-01T09:47:00Z;2025-10-01T10:10:00Z
+88888888-8888-8888-8888-888888888888;Eduardo Silva;Operações;Material;Requisição de caixas organizadoras para estoque.;Baixa;Pendente;2025-10-08T11:30:00Z;
+99999999-9999-9999-9999-999999999999;Sofia Ramos;RH;Serviço;Correção de dados cadastrais de colaborador.;Média;Concluída;2025-09-29T16:00:00Z;2025-09-30T09:20:00Z
+10101010-1010-1010-1010-101010101010;Bruno Teixeira;Financeiro;Melhoria de Processo;Sugestão de relatório automatizado de pagamentos.;Baixa;Aberta;2025-10-07T14:00:00Z;
+
+12121212-1212-1212-1212-121212121212;Paula Vieira;Compras;Equipamento;Solicitação de impressora multifuncional para o setor.;Alta;Em andamento;2025-10-05T10:10:00Z;
+13131313-1313-1313-1313-131313131313;Renato Dias;TI;Serviço;Instalação de atualização de segurança no servidor interno.;Alta;Em andamento;2025-10-06T08:40:00Z;
+14141414-1414-1414-1414-141414141414;Isabela Freitas;Marketing;Material;Pedido de novos cartões de visita.;Baixa;Concluída;2025-10-02T09:00:00Z;2025-10-03T15:20:00Z
+15151515-1515-1515-1515-151515151515;Gabriel Rocha;Operações;Acesso a Sistema;Acesso ao sistema de monitoramento de estoque.;Alta;Pendente;2025-10-08T07:30:00Z;
+16161616-1616-1616-1616-161616161616;Patrícia Nunes;Financeiro;Serviço;Erro na conciliação bancária automática.;Alta;Em andamento;2025-10-04T13:00:00Z;
+
+17171717-1717-1717-1717-171717171717;Diego Martins;TI;Melhoria de Processo;Proposta de reorganização dos repositórios Git internos.;Baixa;Aberta;2025-10-05T16:10:00Z;
+18181818-1818-1818-1818-181818181818;Larissa Souza;RH;Equipamento;Solicitação de headset para trabalho remoto.;Média;Em andamento;2025-10-06T09:25:00Z;
+19191919-1919-1919-1919-191919191919;Felipe Almeida;Compras;Serviço;Renovação de contrato com fornecedor.;Alta;Concluída;2025-09-28T11:20:00Z;2025-09-29T08:00:00Z
+20202020-2020-2020-2020-202020202020;Juliana Castro;Marketing;Material;Solicitação de banners para evento interno.;Média;Aberta;2025-10-07T12:45:00Z;
+21212121-2121-2121-2121-212121212121;Ricardo Santos;Operações;Acesso a Sistema;Necessidade de permissões ampliadas no SAP BTP.;Alta;Pendente;2025-10-08T10:50:00Z;
+
+22222222-2222-2222-2222-222222222221;Thiago Barros;TI;Material;Pedido de cabos de rede categoria 6 para laboratório.;Média;Aberta;2025-10-09T08:30:00Z;
+23232323-2323-2323-2323-232323232323;André Carvalho;TI;Material;Requisição de adaptadores USB-C para suporte técnico.;Média;Aberta;2025-10-09T09:10:00Z;
+24242424-2424-2424-2424-242424242424;Beatriz Lima;Financeiro;Serviço;Ajuste de regra no sistema de aprovação de despesas.;Alta;Em andamento;2025-10-08T14:00:00Z;
+25252525-2525-2525-2525-252525252525;Clara Moreira;RH;Equipamento;Solicitação de cadeira ergonômica para home office.;Média;Pendente;2025-10-07T11:30:00Z;
+26262626-2626-2626-2626-262626262626;Daniel Faria;Marketing;Material;Pedido de kits promocionais para ação externa.;Baixa;Aberta;2025-10-09T10:00:00Z;
+27272727-2727-2727-2727-272727272727;Elaine Santos;Compras;Serviço;Atualização cadastral de fornecedor no sistema interno.;Média;Concluída;2025-10-01T09:00:00Z;2025-10-01T11:20:00Z
+
+28282828-2828-2828-2828-282828282828;Felipe Torres;TI;Acesso a Sistema;Criação de usuário para ambiente de testes SAP.;Alta;Em andamento;2025-10-08T15:40:00Z;
+29292929-2929-2929-2929-292929292929;Giovana Reis;Operações;Melhoria de Processo;Proposta de reorganização do fluxo de expedição.;Baixa;Aberta;2025-10-06T16:10:00Z;
+30303030-3030-3030-3030-303030303030;Hugo Batista;Financeiro;Material;Pedido de toner para impressora de alto volume.;Baixa;Pendente;2025-10-05T09:50:00Z;
+31313131-3131-3131-3131-313131313131;Ingrid Moraes;RH;Serviço;Correção na geração de contratos de estagiários.;Alta;Em andamento;2025-10-07T08:15:00Z;
+32323232-3232-3232-3232-323232323232;Jonas Ribeiro;TI;Equipamento;Requisição de novos monitores ultrawide para desenvolvimento.;Alta;Aberta;2025-10-09T13:40:00Z;
+
+33333334-3333-3333-3333-333333333334;Karen Duarte;Operações;Acesso a Sistema;Acesso ao dashboard logístico interno.;Média;Pendente;2025-10-08T10:20:00Z;
+34343434-3434-3434-3434-343434343434;Leo Fernandes;Compras;Material;Solicitação de papelaria para escritório.;Baixa;Concluída;2025-10-02T15:00:00Z;2025-10-03T09:30:00Z
+35353535-3535-3535-3535-353535353535;Marcela Prado;Marketing;Serviço;Ajuste em campanha automatizada do CRM.;Média;Em andamento;2025-10-06T13:50:00Z;
+36363636-3636-3636-3636-363636363636;Nicolas Silva;Financeiro;Melhoria de Processo;Sugestão para auditoria automatizada de despesas.;Baixa;Aberta;2025-10-09T07:55:00Z;
+37373737-3737-3737-3737-373737373737;Olivia Martins;TI;Serviço;Revisão de logs do SAP CAP após atualização.;Alta;Em andamento;2025-10-08T11:45:00Z;
+
+38383838-3838-3838-3838-383838383838;Paulo Henrique;Operações;Equipamento;Solicitação de rádio comunicador para equipe externa.;Média;Pendente;2025-10-07T10:40:00Z;
+39393939-3939-3939-3939-393939393939;Queila Santana;RH;Material;Requisição de pastas organizadoras para treinamentos.;Baixa;Aberta;2025-10-09T14:10:00Z;
+40404040-4040-4040-4040-404040404040;Rafael Antunes;Compras;Acesso a Sistema;Acesso ao módulo de contratos do SAP.;Alta;Pendente;2025-10-08T09:20:00Z;
+41414141-4141-4141-4141-414141414141;Sara Oliveira;Marketing;Equipamento;Solicitação de câmera DSLR para gravação de conteúdo.;Alta;Em andamento;2025-10-07T12:00:00Z;
+
+43434343-4343-4343-4343-434343434343;Ulisses Prado;TI;Serviço;Configuração de acesso VPN para trabalho remoto.;Alta;Em andamento;2025-10-09T07:50:00Z;
+44444445-4444-4444-4444-444444444445;Vanessa Moura;RH;Material;Requisição de pastas para arquivos de treinamento.;Baixa;Aberta;2025-10-10T09:15:00Z;
+45454545-4545-4545-4545-454545454545;William Castro;Compras;Equipamento;Solicitação de tablet para supervisão de estoque.;Média;Pendente;2025-10-08T11:10:00Z;
+46464646-4646-4646-4646-464646464646;Xavier Almeida;Operações;Acesso a Sistema;Habilitação de acesso ao módulo logístico.;Alta;Pendente;2025-10-09T14:40:00Z;
+47474747-4747-4747-4747-474747474747;Yara Mendes;Marketing;Material;Pedido de uniformes para evento institucional.;Média;Em andamento;2025-10-07T16:20:00Z;
+
+48484848-4848-4848-4848-484848484848;Zeca Rodrigues;TI;Equipamento;Troca de mouse com defeito.;Baixa;Concluída;2025-10-02T08:00:00Z;2025-10-02T09:10:00Z
+49494949-4949-4949-4949-494949494949;Amanda Costa;Financeiro;Serviço;Configuração de integração bancária.;Alta;Em andamento;2025-10-08T13:30:00Z;
+50505050-5050-5050-5050-505050505050;Bruna Silva;RH;Acesso a Sistema;Acesso ao sistema de ponto eletrônico.;Média;Pendente;2025-10-10T08:00:00Z;
+51515151-5151-5151-5151-515151515151;Caio Martins;Operações;Material;Solicitação de etiquetas adesivas para estoque.;Baixa;Aberta;2025-10-09T10:30:00Z;
+52525252-5252-5252-5252-525252525252;Debora Simões;TI;Serviço;Revisão de logs de erro no servidor de autenticação.;Alta;Em andamento;2025-10-08T17:20:00Z;
+
+53535353-5353-5353-5353-535353535353;Elton Souza;Marketing;Melhoria de Processo;Proposta de automação do fluxo de briefings.;Baixa;Aberta;2025-10-09T12:00:00Z;
+54545454-5454-5454-5454-545454545454;Fabiana Gomes;RH;Equipamento;Solicitação de microfone para reuniões online.;Média;Pendente;2025-10-07T13:10:00Z;
+55555556-5555-5555-5555-555555555556;Guilherme Pires;TI;Material;Reposição de HD externo de backup.;Alta;Concluída;2025-10-01T09:00:00Z;2025-10-01T11:00:00Z
+56565656-5656-5656-5656-565656565656;Helena Souza;Compras;Serviço;Atualização de contrato recorrente anual.;Média;Em andamento;2025-10-06T11:40:00Z;
+57575757-5757-5757-5757-575757575757;Igor Magalhães;Operações;Acesso a Sistema;Solicitação de acesso ao sistema de inventário.;Alta;Pendente;2025-10-09T07:45:00Z;
+
+58585858-5858-5858-5858-585858585858;Jéssica Amaral;Financeiro;Material;Pedido de calculadora financeira científica.;Baixa;Aberta;2025-10-10T11:30:00Z;
+59595959-5959-5959-5959-595959595959;Kleber Tavares;TI;Melhoria de Processo;Sugestão de padronização dos scripts internos.;Baixa;Aberta;2025-10-09T08:20:00Z;
+60606060-6060-6060-6060-606060606060;Lara Batista;Marketing;Serviço;Revisão de fluxo de campanha digital.;Média;Em andamento;2025-10-08T12:50:00Z;
+61616161-6161-6161-6161-616161616161;Maurício Freire;Operações;Material;Solicitação de capacetes de segurança.;Alta;Pendente;2025-10-07T09:10:00Z;
+62626262-6262-6262-6262-626262626262;Natália Ramos;Compras;Equipamento;Solicitação de monitor adicional para análise.;Média;Em andamento;2025-10-08T15:00:00Z;
+
+63636363-6363-6363-6363-636363636363;Otávio Soares;TI;Serviço;Instalação de agente de monitoramento.;Alta;Em andamento;2025-10-09T10:15:00Z;
+64646464-6464-6464-6464-646464646464;Priscila Dias;RH;Material;Pedido de crachás para novos funcionários.;Média;Concluída;2025-10-03T11:00:00Z;2025-10-04T08:40:00Z
+65656565-6565-6565-6565-656565656565;Rogério Matos;Financeiro;Serviço;Erro no módulo de notas a pagar.;Alta;Em andamento;2025-10-10T09:30:00Z;
+66666667-6666-6666-6666-666666666667;Sabrina Torres;Marketing;Acesso a Sistema;Acesso ao sistema de automação de campanhas.;Média;Pendente;2025-10-07T14:00:00Z;
+67676767-6767-6767-6767-676767676767;Tadeu Nóbrega;TI;Equipamento;Troca de teclado danificado.;Baixa;Concluída;2025-10-02T09:00:00Z;2025-10-02T10:00:00Z
+
+68686868-6868-6868-6868-686868686868;Ursula Fernandes;Operações;Material;Reposição de embalagens de envio.;Baixa;Aberta;2025-10-10T12:00:00Z;
+69696969-6969-6969-6969-696969696969;Victor Lima;Compras;Melhoria de Processo;Sugestão de otimização no fluxo de pedidos.;Baixa;Aberta;2025-10-09T09:10:00Z;
+70707070-7070-7070-7070-707070707070;Wesley Araújo;Financeiro;Serviço;Ajuste em conciliação automatizada.;Alta;Pendente;2025-10-08T16:00:00Z;
+71717171-7171-7171-7171-717171717171;Ximena Carvalho;RH;Equipamento;Solicitação de webcam para entrevistas online.;Média;Pendente;2025-10-09T11:45:00Z;
+72727272-7272-7272-7272-727272727272;Yuri Silveira;TI;Acesso a Sistema;Acesso ao sistema de desenvolvimento interno.;Alta;Em andamento;2025-10-10T10:10:00Z;
+
+73737373-7373-7373-7373-737373737373;Zilda Moreira;Marketing;Material;Pedido de folhetos para campanha física.;Média;Aberta;2025-10-07T13:20:00Z;
+74747474-7474-7474-7474-747474747474;Adriana Paes;Operações;Equipamento;Solicitação de scanner portátil.;Alta;Em andamento;2025-10-08T10:50:00Z;
+75757575-7575-7575-7575-757575757575;Bruno Almeida;TI;Material;Reposição de baterias para nobreak.;Alta;Pendente;2025-10-09T08:00:00Z;
+76767676-7676-7676-7676-767676767676;Camila Porto;RH;Serviço;Correção de dados no sistema de benefícios.;Média;Concluída;2025-10-03T09:30:00Z;2025-10-03T10:15:00Z
+77777778-7777-7777-7777-777777777778;Daniela Correa;Financeiro;Acesso a Sistema;Acesso ao módulo de auditoria interna.;Alta;Pendente;2025-10-10T11:00:00Z;
+
+78787878-7878-7878-7878-787878787878;Edson Barbosa;TI;Serviço;Configuração de agente de deploy contínuo.;Alta;Em andamento;2025-10-09T13:40:00Z;
+79797979-7979-7979-7979-797979797979;Fernanda Leão;Compras;Material;Pedido de embalagens térmicas para envios.;Média;Aberta;2025-10-08T10:10:00Z;
+80808080-8080-8080-8080-808080808080;Geraldo Braga;RH;Equipamento;Solicitação de mouse vertical.;Baixa;Concluída;2025-10-02T13:00:00Z;2025-10-02T14:00:00Z
+81818181-8181-8181-8181-818181818181;Helder Moura;Operações;Acesso a Sistema;Acesso ao módulo de manutenção.;Alta;Em andamento;2025-10-09T15:20:00Z;
+82828282-8282-8282-8282-828282828282;Ivana Monteiro;TI;Melhoria de Processo;Padronização da estrutura de pastas internas.;Baixa;Aberta;2025-10-10T09:55:00Z;
+
+83838383-8383-8383-8383-838383838383;João Vitor;Marketing;Serviço;Solicitação de atualização de integração CRM.;Média;Em andamento;2025-10-08T14:30:00Z;
+84848484-8484-8484-8484-848484848484;Karen Araujo;Compras;Equipamento;Solicitação de cadeira ajustável para escritório.;Média;Pendente;2025-10-10T12:10:00Z;
+85858585-8585-8585-8585-858585858585;Leonardo Braga;Financeiro;Material;Requisição de pastas de arquivo.;Baixa;Aberta;2025-10-09T11:20:00Z;
+86868686-8686-8686-8686-868686868686;Marcelo Cunha;RH;Serviço;Correção de divergência em folha de pagamento.;Alta;Concluída;2025-10-04T09:00:00Z;2025-10-04T10:30:00Z
+87878787-8787-8787-8787-878787878787;Nathalia Duarte;Compras;Material;Requisição de embalagens pequenas.;Baixa;Aberta;2025-10-10T10:45:00Z;
+
+88888889-8888-8888-8888-888888888889;Otto Silva;TI;Acesso a Sistema;Criação de usuário para ambiente QA.;Alta;Pendente;2025-10-09T09:20:00Z;
+89898989-8989-8989-8989-898989898989;Patrícia Lima;Financeiro;Serviço;Solicitação de suporte para auditoria anual.;Alta;Em andamento;2025-10-10T13:25:00Z;
+90909090-9090-9090-9090-909090909090;Rafael Souza;RH;Equipamento;Pedido de teclado numérico.;Baixa;Concluída;2025-10-02T14:10:00Z;2025-10-02T15:00:00Z
+91919191-9191-9191-9191-919191919191;Simone Ferreira;Marketing;Material;Solicitação de panfletos para campanha local.;Média;Aberta;2025-10-09T16:00:00Z;
+92929292-9292-9292-9292-929292929292;Tiago Menezes;Operações;Serviço;Manutenção preventiva no sistema de cadastro.;Alta;Em andamento;2025-10-10T08:40:00Z;
+
+93939393-9393-9393-9393-939393939393;Andréa Martins;TI;Serviço;Revisão de falhas no agente de atualização.;Alta;Em andamento;2025-10-10T09:10:00Z;
+94949494-9494-9494-9494-949494949494;Bernardo Sousa;RH;Material;Pedido de etiquetas para treinamento interno.;Baixa;Aberta;2025-10-10T11:00:00Z;
+95959595-9595-9595-9595-959595959595;Catarina Freire;Marketing;Equipamento;Solicitação de microfone profissional para gravação.;Média;Pendente;2025-10-10T14:10:00Z;
+96969696-9696-9696-9696-969696969696;Diego Barros;Operações;Acesso a Sistema;Acesso ao módulo de inspeção.;Alta;Pendente;2025-10-11T08:50:00Z;
+97979797-9797-9797-9797-979797979797;Eduarda Lopes;Compras;Serviço;Atualização de dados de fornecedor estratégico.;Média;Em andamento;2025-10-11T10:35:00Z;
+
+98989898-9898-9898-9898-989898989898;Fabrício Melo;TI;Material;Reposição de cabos DisplayPort.;Baixa;Aberta;2025-10-10T15:20:00Z;
+99990000-9999-0000-9999-000000000000;Gabriela Moreira;Financeiro;Serviço;Revisão de integração contábil.;Alta;Em andamento;2025-10-11T09:05:00Z;
+90919191-9091-9191-9091-919191919191;Henrique Valadares;RH;Equipamento;Pedido de teclado para novo colaborador.;Média;Pendente;2025-10-11T13:10:00Z;
+92929393-9292-9393-9292-939393939393;Inês Carvalho;Marketing;Material;Solicitação de materiais impressos para campanha.;Média;Aberta;2025-10-11T14:30:00Z;
+94959697-9495-9697-9495-969796979697;João Felipe;Operações;Serviço;Correção de falha no sistema de leitura de códigos.;Alta;Em andamento;2025-10-10T16:00:00Z;
+
+11121314-1112-1314-1112-131413141314;Karina Salles;TI;Acesso a Sistema;Criação de acesso ao ambiente de homologação.;Alta;Pendente;2025-10-11T11:40:00Z;
+12131415-1213-1415-1213-141514151415;Leonardo Meireles;Compras;Material;Pedido de novas embalagens de entrega.;Baixa;Aberta;2025-10-10T10:50:00Z;
+13141516-1314-1516-1314-151615161516;Mara Cristina;Financeiro;Melhoria de Processo;Sugestão de refinamento no fluxo fiscal.;Baixa;Aberta;2025-10-11T09:45:00Z;
+14151617-1415-1617-1415-161716171617;Nícolas Prado;RH;Serviço;Erro no relatório de admissões.;Alta;Em andamento;2025-10-10T12:30:00Z;
+15161718-1516-1718-1516-171817181718;Otávio Lima;Marketing;Equipamento;Solicitação de luz de estúdio.;Média;Pendente;2025-10-10T14:50:00Z;
+
+16171819-1617-1819-1617-181918191819;Patrícia Farias;TI;Material;Requisição de cabos de extensão.;Baixa;Aberta;2025-10-11T10:25:00Z;
+17181920-1718-1920-1718-192017201720;Quésia Andrade;Operações;Serviço;Ajuste no sistema de checklist de produção.;Média;Concluída;2025-10-09T09:00:00Z;2025-10-09T11:10:00Z
+18192021-1819-2021-1819-202118212821;Rafael Coutinho;Compras;Acesso a Sistema;Acesso ao módulo de licitações.;Alta;Pendente;2025-10-11T09:40:00Z;
+19202122-1920-2122-1920-212219221922;Sara Mendonça;Financeiro;Material;Pedido de pastas de arquivo para auditoria.;Baixa;Aberta;2025-10-10T11:50:00Z;
+20212223-2021-2223-2021-222320232023;Tiago Guimarães;RH;Equipamento;Solicitação de fones de ouvido.;Média;Em andamento;2025-10-11T08:20:00Z;
+
+21222324-2122-2324-2122-232421242124;Ulysses Nogueira;Marketing;Serviço;Revisão de campanha ativa no CRM.;Alta;Em andamento;2025-10-11T12:10:00Z;
+22232425-2223-2425-2223-242523252325;Viviane Lopes;TI;Acesso a Sistema;Reativação de usuário inativo.;Alta;Concluída;2025-10-09T08:40:00Z;2025-10-09T09:05:00Z
+23242526-2324-2526-2324-252623262326;Wagner Silva;Operações;Material;Requisição de caixas reforçadas.;Média;Pendente;2025-10-10T16:10:00Z;
+24252627-2425-2627-2425-262724272427;Ximena Braga;Compras;Melhoria de Processo;Sugestão de padronização de fornecedores.;Baixa;Aberta;2025-10-11T10:00:00Z;
+25262728-2526-2728-2526-272825282528;Ygor Almeida;Financeiro;Serviço;Instabilidade no sistema financeiro online.;Alta;Em andamento;2025-10-11T11:35:00Z;
+
+26272829-2627-2829-2627-282926292629;Zélia Castro;RH;Material;Requisição de blocos de anotação.;Baixa;Aberta;2025-10-10T13:10:00Z;
+27282930-2728-2930-2728-293027302730;Adalberto Peixoto;TI;Equipamento;Substituição de fonte de alimentação.;Alta;Pendente;2025-10-11T07:50:00Z;
+28293031-2829-3031-2829-303128312831;Beatriz Nobre;Marketing;Material;Pedido de adesivos promocionais.;Média;Aberta;2025-10-11T09:30:00Z;
+29303132-2930-3132-2930-313229322932;Carlos Tavares;Operações;Serviço;Manutenção no sistema de escalas.;Alta;Em andamento;2025-10-10T15:00:00Z;
+30313233-3031-3233-3031-323330333033;Daniela Mota;Compras;Equipamento;Solicitação de carrinho para movimentação de cargas.;Média;Pendente;2025-10-11T14:40:00Z;
+
+31323334-3132-3334-3132-333431343134;Eduardo Campos;Financeiro;Serviço;Ajuste de rotina de fechamento financeiro.;Alta;Em andamento;2025-10-11T13:20:00Z;
+32333435-3233-3435-3233-343532353235;Fernanda Paiva;RH;Acesso a Sistema;Acesso ao módulo de benefícios.;Média;Pendente;2025-10-11T10:45:00Z;
+33343536-3334-3536-3334-353633363336;Gerson Rocha;TI;Material;Solicitação de pendrives para inventário.;Baixa;Aberta;2025-10-10T16:50:00Z;
+34353637-3435-3637-3435-363734373437;Helena Pereira;Marketing;Serviço;Ajuste em relatórios de performance de campanhas.;Média;Em andamento;2025-10-11T08:15:00Z;
+35363738-3536-3738-3536-373835383538;Isac Arruda;Operações;Equipamento;Solicitação de lanterna tática.;Alta;Pendente;2025-10-11T11:00:00Z;
+
+36373839-3637-3839-3637-383936393639;Júlia Rezende;Compras;Material;Requisição de bobinas para impressora térmica.;Baixa;Aberta;2025-10-11T12:30:00Z;
+37383940-3738-3940-3738-394037403740;Kevin Matos;Financeiro;Melhoria de Processo;Automação de conferência de extratos.;Baixa;Aberta;2025-10-11T09:25:00Z;
+38394041-3839-4041-3839-404138413841;Larissa Monteiro;RH;Serviço;Revisão no cadastro de cargos.;Média;Em andamento;2025-10-10T14:20:00Z;
+39404142-3940-4142-3940-414239423942;Marcelo Diniz;TI;Acesso a Sistema;Acesso ao ambiente de treinamento.;Alta;Pendente;2025-10-11T10:15:00Z;
+40414243-4041-4243-4041-424340434043;Natália Siqueira;Operações;Material;Pedido de caixas pequenas para expedição.;Baixa;Aberta;2025-10-10T15:00:00Z;
+
+41424344-4142-4344-4142-434441444144;Otto Brandão;Compras;Equipamento;Solicitação de estabilizador.;Média;Pendente;2025-10-11T09:40:00Z;
+42434445-4243-4445-4243-444542454245;Paula Lemos;Marketing;Material;Requisição de canetas personalizadas.;Baixa;Aberta;2025-10-11T08:50:00Z;
+43444546-4344-4546-4344-454643464346;Quirino Sá;Financeiro;Serviço;Erro na integração de reembolsos.;Alta;Em andamento;2025-10-11T10:30:00Z;
+44454647-4445-4647-4445-464744474447;Renan Furtado;RH;Equipamento;Solicitação de cadeira ergonômica.;Alta;Pendente;2025-10-11T13:55:00Z;
+45464748-4546-4748-4546-474845484548;Sabrina Reis;TI;Melhoria de Processo;Sugestão de reorganização dos repositórios internos.;Baixa;Aberta;2025-10-10T16:15:00Z;
+
+46474849-4647-4849-4647-484946494649;Tales Albuquerque;Operações;Serviço;Manutenção no sistema de roteamento.;Alta;Em andamento;2025-10-11T11:35:00Z;
+47484950-4748-4950-4748-495047504750;Ursula Andrade;Compras;Material;Pedido de cadernos para inventário.;Baixa;Aberta;2025-10-11T12:20:00Z;
+48495051-4849-5051-4849-505148514851;Vanderson Paiva;Financeiro;Acesso a Sistema;Acesso ao módulo contábil.;Alta;Pendente;2025-10-11T09:15:00Z;
+49505152-4950-5152-4950-515249524952;Wellington Dias;RH;Material;Solicitação de caixas organizadoras.;Baixa;Aberta;2025-10-10T11:25:00Z;
+50515253-5051-5253-5051-525350535053;Xuxa Barcellos;TI;Serviço;Revisão do ambiente SAP CAP.;Alta;Em andamento;2025-10-11T14:10:00Z;
+
+51525354-5152-5354-5152-535451545154;Yago Mendonça;Marketing;Equipamento;Pedido de câmera compacta.;Média;Pendente;2025-10-11T10:45:00Z;
+52535455-5253-5455-5253-545552555255;Zoraide Vieira;Operações;Material;Requisição de fitas de embalagem.;Baixa;Aberta;2025-10-10T13:30:00Z;
+53545556-5354-5556-5354-555653565356;Ademir Teixeira;Compras;Serviço;Ajuste em tabela de fornecedores.;Alta;Em andamento;2025-10-11T09:50:00Z;
+54555657-5455-5657-5455-565754575457;Bárbara Nunes;Financeiro;Melhoria de Processo;Proposta de automação de pagamentos.;Baixa;Aberta;2025-10-11T11:30:00Z;
+55565758-5556-5758-5556-575855585558;Caio Lacerda;RH;Acesso a Sistema;Acesso ao portal de benefícios.;Média;Pendente;2025-10-11T13:40:00Z;
+
+56575859-5657-5859-5657-585956595659;Denise Ferreira;TI;Material;Requisição de adaptadores DVI-HDMI.;Baixa;Aberta;2025-10-10T10:20:00Z;
+57585960-5758-5960-5758-596057605760;Eduardo Avelar;Marketing;Serviço;Atualização de template de anúncios.;Média;Em andamento;2025-10-11T09:40:00Z;
+58596061-5859-6061-5859-606158615861;Fernanda Passos;Operações;Equipamento;Solicitação de pistola de etiquetagem.;Média;Pendente;2025-10-11T14:25:00Z;
+59606162-5960-6162-5960-616259626962;Geraldo Mourão;Compras;Material;Reposição de envelopes para correspondência.;Baixa;Aberta;2025-10-10T11:50:00Z;
+60616263-6061-6263-6061-626360636063;Helena Cardoso;Financeiro;Serviço;Erro na geração de relatórios fiscais.;Alta;Em andamento;2025-10-11T10:55:00Z;
+
+61626364-6162-6364-6162-636461646164;Igor Rocha;RH;Equipamento;Solicitação de HD externo para backup.;Média;Pendente;2025-10-11T12:45:00Z;
+62636465-6263-6465-6263-646562656265;Janaina Rodrigues;Marketing;Material;Pedido de pranchetas para evento.;Baixa;Aberta;2025-10-11T11:15:00Z;
+63646566-6364-6566-6364-656663666366;Kadu Siqueira;TI;Acesso a Sistema;Criação de usuário SAP BTP.;Alta;Pendente;2025-10-11T08:40:00Z;
+64656667-6465-6667-6465-666764676467;Lucas Prado;Operações;Serviço;Falha no sistema de telemetria.;Alta;Em andamento;2025-10-10T16:30:00Z;
+65666768-6566-6768-6566-676865686568;Maria Cândida;Compras;Material;Pedido de caixas de arquivo morto.;Baixa;Aberta;2025-10-10T14:10:00Z;
+
+66676869-6667-6869-6667-686966696669;Nathalia Castro;Financeiro;Acesso a Sistema;Acesso ao módulo de despesas.;Alta;Pendente;2025-10-11T09:20:00Z;
+67686970-6768-6970-6768-697067706770;Orlando Xavier;RH;Melhoria de Processo;Proposta de padronização de treinamentos.;Baixa;Aberta;2025-10-11T10:30:00Z;
+68697071-6869-7071-6869-707168716871;Paulo Henrique Jr;Marketing;Equipamento;Solicitação de microfone Bluetooth.;Média;Pendente;2025-10-11T13:55:00Z;
+69707172-6970-7172-6970-717269726972;Quésia Duarte;TI;Material;Solicitação de etiquetas de inventário.;Baixa;Aberta;2025-10-10T11:40:00Z;
+70717273-7071-7273-7071-727370737073;Ricardo Bastos;Operações;Serviço;Correção no módulo de produção.;Alta;Em andamento;2025-10-11T12:20:00Z;
+
+71727374-7172-7374-7172-737471747174;Sandra Leal;Compras;Equipamento;Solicitação de caixa plástica para estoque.;Média;Pendente;2025-10-11T11:35:00Z;
+72737475-7273-7475-7273-747572757275;Talita Pires;Financeiro;Material;Pedido de tinta para impressora.;Baixa;Aberta;2025-10-10T14:00:00Z;
+73747576-7374-7576-7374-757673767376;Ubirajara Gomes;RH;Serviço;Ajuste no cadastro de colaboradores.;Média;Concluída;2025-10-09T10:00:00Z;2025-10-09T12:30:00Z
+74757677-7475-7677-7475-767774777477;Valter Azevedo;Marketing;Material;Pedido de brindes para campanha.;Média;Aberta;2025-10-11T13:10:00Z;
+75767778-7576-7778-7576-777875787578;Wesley Araújo Jr;TI;Serviço;Revisão de API interna.;Alta;Em andamento;2025-10-11T12:55:00Z;
+
+76777879-7677-7879-7677-787976797679;Xênia Prado;Operações;Material;Reposição de EPIs.;Alta;Pendente;2025-10-10T16:45:00Z;
+77787980-7778-7980-7778-798078807880;Yasmin Tavares;Compras;Melhoria de Processo;Automação de ordens de compra.;Baixa;Aberta;2025-10-11T10:55:00Z;
+78798081-7879-8081-7879-808179817981;Zuleica Ramos;Financeiro;Serviço;Falha no envio automático de faturas.;Alta;Em andamento;2025-10-11T14:40:00Z;
+79808182-7980-8182-7980-818280818081;Adriana Cunha;RH;Equipamento;Solicitação de mouse sem fio.;Média;Concluída;2025-10-02T12:00:00Z;2025-10-02T13:10:00Z
+80818283-8081-8283-8081-828381828182;Breno Dantas;TI;Acesso a Sistema;Acesso ao portal de deploys.;Alta;Pendente;2025-10-11T08:25:00Z;
+
+81828384-8182-8384-8182-838482838283;Cíntia Nóbrega;Marketing;Material;Requisição de cartões corporativos.;Baixa;Aberta;2025-10-11T10:20:00Z;
+82838485-8283-8485-8283-848583848384;Douglas Melo;Operações;Serviço;Ajuste no sistema de rastreamento.;Alta;Em andamento;2025-10-10T15:10:00Z;
+83848586-8384-8586-8384-858684858485;Elisângela Rocha;Compras;Material;Pedido de sacolas de transporte.;Baixa;Aberta;2025-10-11T09:40:00Z;
+84858687-8485-8687-8485-868785868586;Fabricio Lima;Financeiro;Serviço;Correção de relatórios de pagamentos.;Alta;Em andamento;2025-10-11T11:55:00Z;
+85868788-8586-8788-8586-878886888588;Gabriela Furtado;RH;Melhoria de Processo;Otimização de fluxo de contratação.;Baixa;Aberta;2025-10-11T13:25:00Z;
+
+86878889-8687-8889-8687-888987898789;Hugo Leme;TI;Material;Reposição de conectores RJ45.;Baixa;Aberta;2025-10-10T12:20:00Z;
+87888990-8788-8990-8788-899088908790;Ingrid Lopes;Marketing;Serviço;Ajuste no dashboard de campanhas.;Média;Em andamento;2025-10-11T11:10:00Z;
+88899091-8889-9091-8889-909189918891;Jeferson Aquino;Operações;Equipamento;Solicitação de luvas antiestáticas.;Alta;Pendente;2025-10-11T14:15:00Z;
+89909192-8990-9192-8990-919290928992;Kátia Fernandes;Compras;Acesso a Sistema;Acesso ao sistema de suprimentos.;Alta;Pendente;2025-10-11T10:50:00Z;
+90919293-9091-9293-9091-929391939193;Leandro Santos;Financeiro;Material;Pedido de organizadores de mesa.;Baixa;Aberta;2025-10-10T15:45:00Z;
